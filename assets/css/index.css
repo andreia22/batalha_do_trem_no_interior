@@ -146,18 +146,18 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: #fff;
+  color: #ffc107;
   line-height: 0;
 }
 
 .scroll-top:hover {
   background: rgba(39, 167, 118, 0.8);
-  color: #ffffff;
+  color: #ffc107;
 }
 
 .scroll-top.active {
   visibility: visible;
-  opacity: 1;
+  opacity: 0;
   bottom: 15px;
 }
 
@@ -202,7 +202,7 @@ h6 {
 #preloader .line:before {
   content: "";
   position: absolute;
-  background-color: #fff;
+  background-color: #2cbc85;
   left: 0;
   top: 50%;
   width: 1px;
@@ -381,7 +381,7 @@ h6 {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #070707;
+    color: #2a0544;
   }
 
   .navbar .dropdown ul {
@@ -417,7 +417,7 @@ h6 {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #ffffff;
+    color: #2cbc85;
   }
 
   .navbar .dropdown:hover>ul {
@@ -494,7 +494,7 @@ h6 {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: #930707;
     letter-spacing: 1px;
     white-space: nowrap;
     transition: 0.3s;
@@ -511,7 +511,7 @@ h6 {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #070707;
+    color: #080c65;
   }
 
   .navbar .dropdown ul,
@@ -540,7 +540,7 @@ h6 {
   }
 
   .mobile-nav-hide {
-    color: #0a0a0a;
+    color: #cd0f0f;
     font-size: 32px;
     cursor: pointer;
     line-height: 0;
@@ -681,7 +681,7 @@ h6 {
   text-align: center;
   width: 100%;
   height: 45%;
-  opacity: 1;
+
 }
 
 .gallery-single img {
@@ -695,7 +695,6 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
   /* This sets the transparency level of the overlay */
   color: #930707;
   display: flex;
@@ -723,7 +722,6 @@ h6 {
 }
 
 .swiper-slide img {
-  opacity: 1.0;
   border-radius: 2%;
 }
 
@@ -744,7 +742,6 @@ h6 {
 }
 
 .swiper-slide img {
-  opacity: 1.0;
   border-radius: 1%;
 }
 
@@ -761,7 +758,7 @@ h6 {
 
 @media (max-width: 1199px) {
   .testimonials .swiper-slide-active {
-    opacity: 1;
+    opacity: 0;
   }
 
   .testimonials .swiper-pagination {
@@ -791,7 +788,7 @@ h6 {
 
 @media (max-width: 1199px) {
   .testimonials .swiper-slide-active {
-    opacity: 1;
+    opacity: 0;
   }
 
   .testimonials .swiper-pagination {
@@ -805,7 +802,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .testimonials .swiper-slide-next {
-    opacity: 1;
+    opacity: 0;
     transform: scale(4.12);
   }
 }
@@ -847,7 +844,7 @@ h6 {
 
 .gallery .gallery-links .preview-link:hover,
 .gallery .gallery-links .details-link:hover {
-  color: #fff;
+  color: #8c0d0d;
 }
 
 .gallery .gallery-links .details-link {
@@ -856,7 +853,7 @@ h6 {
 }
 
 .gallery .gallery-item:hover .gallery-links {
-  opacity: 1;
+  opacity: 0;
 }
 
 .gallery .gallery-item:hover .preview-link,
@@ -887,8 +884,7 @@ h6 {
 .gallery-single .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.7);
-  opacity: 1;
+  opacity: 0;
 }
 
 .gallery-single .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
