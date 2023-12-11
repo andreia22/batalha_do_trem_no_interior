@@ -1,9 +1,8 @@
 /* Fonts */
 :root {
 
-  /*--font-default: "Black And White Picture", cursive; */
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
+  --font-default: "Black And White Picture", cursive;
+  /*--font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
   --font-primary: "Permanent Marker", cursive;
   --font-secondary: "Black And White Picture", cursive;
 }
@@ -697,7 +696,6 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  /* This sets the transparency level of the overlay */
   color: #930707;
   display: flex;
   flex-direction: column;
