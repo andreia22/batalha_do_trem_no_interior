@@ -841,6 +841,7 @@ h1.heading {
 }
 
 .card-title {
+    color: #FFA500;
     margin-top: 0px;
     font-weight: 700;
     font-size: 1.65em;
