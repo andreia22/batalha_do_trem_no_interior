@@ -1,7 +1,9 @@
 /* Fonts */
 :root {
 
-  --font-default: "Black And White Picture", cursive;
+  /*--font-default: "Black And White Picture", cursive; */
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
   --font-primary: "Permanent Marker", cursive;
   --font-secondary: "Black And White Picture", cursive;
 }
@@ -80,7 +82,7 @@ h6 {
   font-size: 36px;
   font-weight: 700;
   font-family: var(--font-secondary);
-  color: #fff;
+  color: #080808;
 }
 
 /*--------------------------------------------------------------
@@ -106,7 +108,7 @@ h6 {
 }
 
 .page-header p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(8, 8, 8, 0.8);
 }
 
 .page-header .cta-btn {
@@ -728,7 +730,7 @@ h6 {
 @media screen and (max-width: 768px) {
   .cta-btn {
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 80px;
     padding: 8px 16px;
   }
 }
