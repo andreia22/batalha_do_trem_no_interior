@@ -733,10 +733,9 @@ img {
         width: 100%;
         height: auto;
     }
-} */
+}
 
-
-.wrapper {
+*/ .wrapper {
     display: table;
     height: 100%;
     width: 100%;
@@ -823,7 +822,7 @@ h1.heading {
 }
 
 .card-title a {
-    color: #FFA500 ;
+    color: #FFA500;
     text-decoration: none !important;
 }
 
